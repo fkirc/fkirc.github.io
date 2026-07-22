@@ -1,4 +1,7 @@
-# Specification Traps: Which tasks can be done at inference speed?
+---
+layout: page
+title: "Specification Traps: Which tasks can be done at inference speed?"
+---
 
 The [Triple Loop Condition](triple-loop-condition.md) is a way to check which tasks can safely run at inference speed.
 The first condition is whether a task can even be specified at all.

@@ -1,4 +1,7 @@
-# Frontends at Inference Speed: Agent-friendly CSS Styling
+---
+layout: page
+title: "Frontends at Inference Speed: Agent-friendly CSS Styling"
+---
 
 As part of the [Triple Loop Condition](triple-loop-condition.md), I argue that frontend engineering tasks are particularly well suited to inference speed.
 Let us recall the three conditions for frontends:

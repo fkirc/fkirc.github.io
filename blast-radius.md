@@ -1,4 +1,7 @@
-# Blast Radius: Symmetric vs. asymmetric fallout when things go wrong
+---
+layout: page
+title: "Blast Radius: Symmetric vs. asymmetric fallout when things go wrong"
+---
 
 In the [Triple Loop Condition](triple-loop-condition.md), I established that working at inference speed is only possible in a responsible way if the blast radius can be limited to an "acceptable risk".
 With "blast radius", I include both short-term risks (e.g. immediate system failures), but also long-term risks (e.g. maintenance risks).

@@ -1,4 +1,7 @@
-# Verification Traps: Rotten feedback loops destroy AI at inference speed.
+---
+layout: page
+title: "Verification Traps: Rotten feedback loops destroy AI at inference speed."
+---
 
 Within the [Triple Loop Condition](triple-loop-condition.md), I established that self-correcting **verification loops** are essential to execute tasks at inference speed.
 

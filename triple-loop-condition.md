@@ -1,4 +1,7 @@
-# The Triple Loop Condition: Engineering at inference speed in a safe and responsible way
+---
+layout: page
+title: "The Triple Loop Condition: Engineering at inference speed in a safe and responsible way"
+---
 
 Every engineer knows that AI is a powerful assistant.
 However, conflicts arise about which engineering tasks can really be deeply automated instead of only being assisted by AI.
