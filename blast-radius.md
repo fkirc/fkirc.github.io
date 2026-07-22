@@ -45,7 +45,7 @@ Therefore, it might still be a dangerous illusion to operate a large DevOps orga
 
 ### Database Schemes
 
-In early-stage pre-MVP startups, it might be exactly the right strategy to iterate quickly on database schemes at inference speed.
+In early-stage pre-MVP startups, it might be exactly the right strategy to iterate quickly on database schemes at inference speed, since early schema mistakes are cheap to undo before real user data has accumulated.
 However, for large-scale organizations, the blast radius of that practice becomes unacceptable and asymmetric, due to risks of data corruptions, technical debt and performance collapse.
 Therefore, I still see strict human supervision as necessary for large scale databases.
 
@@ -53,7 +53,7 @@ Therefore, I still see strict human supervision as necessary for large scale dat
 
 In large organizations, the boundaries between microservices are not purely technical, but are also influenced by political structures.
 Moreover, the blast radius of wrong microservice boundaries may be enormous and asymmetric.
-If the sprawling of new microservices is completely uncontrolled at inference speed, then the organization might succumb to "Conway's law".
+If the sprawling of new microservices is completely uncontrolled at inference speed, then the organization might succumb to "Conway's law" — the tendency for system boundaries to mirror the org chart instead of actual technical needs.
 In the worst case, a system might collapse into a "distributed monolith".
 To avoid such collapse, it might be the case that human review committees with veto power are needed, and this is a task that an AI at inference speed cannot (yet) fulfill.
 
@@ -64,7 +64,7 @@ A complete lockdown on new frameworks would stifle innovation, but at the same t
 
 ### External Code-Dependencies or API Integrations
 
-External dependencies can potentially have a huge blast radius, stickiness and security impact.
+External dependencies can potentially have a huge blast radius, stickiness (how hard they become to rip out once integrated), and security impact.
 So, any piece of external code may need extensive architecture reviews that cannot be (yet) done at inference speed.
 
 ### Hyper-Fragile Side Effects

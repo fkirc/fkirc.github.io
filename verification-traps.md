@@ -25,13 +25,13 @@ And secondly, by creating a huge mesh of "mocked values", the unit tests might b
 ### Non-Existing End to End Loops
 
 Even some projects with near 100% unit test coverage might lack ways to verify end-to-end functionality, crippling an agent’s ability to autonomously deliver working results.
-For example, if a project can only be tested by deploying to a staging environment after code review, the end-to-end loop is broken.
+For example, if a project can only be tested by deploying to a staging environment after code review, the end-to-end loop is broken: the agent has to wait on a human reviewer before it can even see whether its own change worked.
 
 How to fix it?
 My recommendation is not to spend weeks building massive end-to-end test suites, but rather to generate small testing scripts on-demand.
 In case those scripts are deemed as "stable", then the scripts may be cleaned up and taken over into a permanent CI/CD pipeline, otherwise the scripts may be thrown away once the agent finished its task.
 
-Special case for frontends: it is critically important that the agent has direct control of a web browser, e.g. with Playwright-CLI.
+Special case for frontends: it is critically important that the agent has direct control of a web browser, e.g. with Playwright-CLI, so it can see the rendered result itself — for example via screenshots — instead of relying on a human to check the UI.
 
 ### Highly Expensive End to End Loops
 
@@ -52,8 +52,8 @@ Also in many cases, a few "dangerous" commands can be easily swapped out with le
 ### Web-Obsessed CI/CD Pipeline
 
 CLI-tools are best friends of agents, because they're highly efficient in scriptable verification loops.
-Having "web-only-checks" was already painful before the agentic era, but now this practice is unacceptable.
-Whatever is checked in CI/CD should be checked by agent-compatible CLI-tools.
+Having checks that only exist behind a web UI — with no CLI equivalent — was already painful before the agentic era. Now it's unacceptable, since an agent does not want to click through a dashboard.
+Whatever gets checked in CI/CD should be checkable through an agent-compatible CLI-tool.
 
 
 ### Markdown-Slopped Fake Verifications
@@ -83,7 +83,7 @@ Once enforced, agents naturally follow the rules simply by mirroring existing co
 
 The practice of mutilating or hiding errors to make them "cleaner" was already questionable before, but now it becomes completely unacceptable in the agentic era.
 A verification loop needs to have access to the unedited root cause of an error.
-If "cleaning" is needed, then said cleaning can be done at the very last mile of UI-rendering.
+If "cleaning" is needed, then said cleaning can be done at the very last mile of UI-rendering — i.e., only in how the error is displayed to the user, never in the underlying data an agent sees.
 
 ### Next: Blast Radius
 
