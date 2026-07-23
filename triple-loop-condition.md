@@ -27,7 +27,7 @@ To answer this question, I propose the **Triple Loop Condition** to see which ta
 - **C3 Blast Radius:** I split blast radius into two related questions: First, what is the potential damage if the task is done wrong? And secondly, how much effort and time is needed to repair it?
 
 Once we see a task through these three conditions, it stops being a pure gut call.
-If all three are true, then working at inference speed isn't reckless, it is just good engineering practise.
+If all three are true, then working at inference speed isn't reckless, it is just good engineering practice.
 However, meeting those three conditions doesn't magically let an agent complete the task.
 Instead, it often requires dedicated AI-engineering efforts to translate those three conditions into a practically working setup.
 
