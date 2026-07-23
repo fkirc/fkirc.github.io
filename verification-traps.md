@@ -6,6 +6,8 @@ title: "Verification Traps: Rotten feedback loops destroy AI at inference speed.
 Within the [Triple Loop Condition](triple-loop-condition.md), I established that self-correcting **verification loops** are essential to execute tasks at inference speed.
 
 Typically, verification loops are needed because a non-trivial engineering task won't be correct on the first try.
+Introducing a verification loop can sometimes feel like unlocking a new "super power," because it can make the difference between generating a faulty draft and a fully working deliverable.
+
 However, I observed that many projects are running with inefficient or broken verification loops.
 This article lists such examples below, with the goal of developing a smell for broken verification loops.
 
