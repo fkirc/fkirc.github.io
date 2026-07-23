@@ -74,11 +74,18 @@ Instead of doing the real engineering work to set up a verification loop, it is 
 And hundreds of other instructions that can be slopped in by a framework like "spec-driven development".
 None of this provides any concrete instructions on how to call a project-specific test suite or validation script; instead the agent's context gets flooded with hyper-generic instructions on how to be "careful", distracting the attention from the actual task to solve.
 
-### Context-Flooding with Trivial Checks
+### Context-Flooding with Trivial Requirements
 
-Again, CLI-tools are best friends of agents because they can verify trivial checks highly efficiently.
-Dumping massive lists of linting rules into an agent’s context instead of using CLI-tools is a major anti-pattern because it distracts agents from the core task to solve.
-CLI-tools should serve as the automated safety gates, not context bloat.
+Another related anti-pattern is to flood an agent's context with a massive list of trivial requirements like this:
+
+```
+" Namings must be snake-case! "
+" No unused imports! "
+" Do not leave unneeded console logs! "
+```
+
+And so on, distracting agents from the core task to solve.
+To avoid such context-flooding, CLI-tools are best friends of agents because they can serve as highly efficient safety gates.
 Once enforced, agents naturally follow the rules simply by mirroring existing codebase patterns.
 
 ### Mutilation of Errors
