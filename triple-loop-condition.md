@@ -12,10 +12,7 @@ In engineering, "inference speed" is using AI not only to assist with tasks, but
 
 At every large-scale engineering organization, there will always be resistance against AI at inference speed.
 And in many cases, that resistance is well-justified.
-
-For example, an uncontrolled wild-riding at inference speed might lead to excessive maintenance problems or technical debt.
-Or even worse, an uncontrolled shipping at inference speed might lead to a meltdown in IT-security or regulatory compliance.
-
+For example, cowboy-style shipping at inference speed might lead to excessive maintenance problems or technical debt — or, even worse, a meltdown in IT-security or regulatory compliance.
 But other than well-justified resistance, I also heard many vague arguments of "AI being too weak" for certain tasks.
 
 ### How to Smell Bullshit Arguments
@@ -29,7 +26,8 @@ To answer this question, I propose the **Triple Loop Condition** to see which ta
 - **C2 Verification:** Can the task be (efficiently) verified within an automated verification loop? Typically, for non-trivial tasks, a self-correcting loop is needed because the results are rarely correct on the first try.
 - **C3 Blast Radius:** I split blast radius into two related questions: First, what is the potential damage if the task is done wrong? And secondly, how much effort and time is needed to repair it?
 
-I argue that if those three conditions are fulfilled, then a task **can be done at AI inference speed in a safe and responsible way**.
+Once we see a task through these three conditions, it stops being a pure gut call.
+If all three are true, then working at inference speed isn't reckless, it is just good engineering practise.
 However, meeting those three conditions doesn't magically let an agent complete the task.
 Instead, it often requires dedicated AI-engineering efforts to translate those three conditions into a practically working setup.
 
