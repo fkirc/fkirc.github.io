@@ -10,7 +10,7 @@ In engineering, "inference speed" is using AI not only to assist with tasks, but
 
 ### Resistance against Inference Speed
 
-At every large-scale engineering organization, there will always be resistance against AI at inference speed.
+At every large-scale organization, there will be resistance against AI at inference speed.
 And in many cases, that resistance is well-justified.
 For example, cowboy-style shipping at inference speed might lead to excessive maintenance problems or technical debt — or, even worse, a meltdown in IT-security or regulatory compliance.
 But other than well-justified resistance, I also heard many vague arguments of "AI being too weak" for certain tasks.
