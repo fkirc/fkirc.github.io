@@ -71,8 +71,8 @@ Instead of doing the real engineering work to set up a verification loop, it is 
 " Never deviate from the specs! "
 ```
 
-And hundreds of other instructions that can be slopped in by a framework like "spec-driven development".
-None of this provides any concrete instructions on how to call a project-specific test suite or validation script; instead the agent's context gets flooded with hyper-generic instructions on how to be "careful", distracting the attention from the actual task to solve.
+And hundreds of other instructions that can be slopped in by some frameworks that try to be "spec-driven" in an over-generic way.
+None of this provides any concrete instructions on how to call a project-specific test suite or validation script; instead the agent's context gets flooded with over-generic instructions on how to be "careful", distracting the attention from the actual task to solve.
 
 ### Context-Flooding with Trivial Requirements
 
