@@ -78,5 +78,6 @@ Instead, the code would need to be modularized into a non-rotten state, before a
 
 Congratulations if you made it through all three conditions: spec, verification, and blast radius.
 You have now unlocked the real power of AI at inference speed.
-But stay careful: blast radius is not a fixed property of a task; it depends on the surrounding environment.
-If that environment changes — for example, a new level of scale, new dependencies, or previously unknown threats — the blast radius should be re-evaluated before trusting inference speed again.
+However, blast radius depends on the surrounding environment.
+And wherever the three conditions are only partially covered, the remaining gaps may still need to be bridged by [fiduciary trust](agentic-review-meltdown.md) in the people running those agents.
+Such gaps are best treated as a backlog: the more of them we close with real specs, verifications, and blast-radius limits, the less we depend on trust that does not scale.
