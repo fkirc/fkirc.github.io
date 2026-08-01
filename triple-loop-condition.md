@@ -50,3 +50,4 @@ The following is a series of articles and case studies to validate the "Triple L
 - C2: [Verification Traps: Rotten feedback loops destroy AI at inference speed.](verification-traps.md)
 - C3: [Blast Radius: Symmetric vs. asymmetric fallout when things go wrong](blast-radius.md)
 - Special case: [Frontends at Inference Speed: Agent-friendly CSS Styling](frontend-at-inference-speed.md)
+- Bailout: [Agentic Review Meltdown: Fallback to Fiduciary Trust](agentic-review-meltdown.md) — when agentic verification is lagging behind
