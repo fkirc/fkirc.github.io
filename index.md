@@ -11,3 +11,16 @@ Articles on AI-engineering at inference speed — using AI not just to assist, b
 - [Blast Radius](blast-radius.md) — symmetric vs. asymmetric fallout when things go wrong
 - [Frontends at Inference Speed](frontend-at-inference-speed.md) — agent-friendly CSS styling as a case study
 - Bailout: [Agentic Review Meltdown](agentic-review-meltdown.md) — when agentic verification is lagging behind
+
+## LinkedIn postings
+
+Shorter takes, posted as they came up:
+
+- [Review Bottlenecks](linkedin-postings/review-bottlenecks.md) — writing code got cheap, reviewing it did not
+- [How to Authenticate Agents](linkedin-postings/how-to-authenticate-agents.md) — is OAuth the new king?
+- [MCPs Are Not REST Mirrors](linkedin-postings/mcp-rest-mirrors.md) — build agent-first, not endpoint-first
+- [The Local MCP Slop-Creature](linkedin-postings/slop-creature-local-mcp.md) — the worst of both worlds in one package
+- [Jira in the Agent Era](linkedin-postings/jira-with-agents.md) — customization humans tolerated, agents expose
+- [Converting Tokens Into Quality](linkedin-postings/convert-tokens-into-quality.md) — a regression suite in an afternoon, not in weeks
+- [Testing Is Fun Again](linkedin-postings/testing-being-fun-again.md) — QA as an algorithmic problem
+- [Farewell, Bitpanda](linkedin-postings/bitpanda-farewell.md) — what custodial-grade process is actually good for

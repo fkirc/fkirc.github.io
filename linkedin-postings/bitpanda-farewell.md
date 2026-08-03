@@ -7,5 +7,9 @@ Nevertheless, my journey at Bitpanda has now ended. I will soon be looking for A
 Thank you ... for being part of this journey!!
 
 
-Comment below:
+Comments below:
+
 Among many other things, my series of articles about the "Triple Loop Condition" was partially inspired by Bitpanda: https://fkirc.github.io/triple-loop-condition.html
+
+Probably I forget multiple people to mention, some of them I am not even connected to on LinkedIn.
+But <redacted> was for me one of the greatest inspirations from the technical side. Being forward-thinking and revolutionary in his ideas, but also being easy to work with and showing the due respect to all the strong processes that Bitpanda has in place. 
