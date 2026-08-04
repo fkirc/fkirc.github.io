@@ -7,6 +7,7 @@ Articles on AI-engineering at inference speed — using AI not just to assist, b
 - [Verification Traps](verification-traps.md) — rotten feedback loops that destroy AI at inference speed
 - [Blast Radius](blast-radius.md) — symmetric vs. asymmetric fallout when things go wrong
 - [Frontends at Inference Speed](frontend-at-inference-speed.md) — agent-friendly CSS styling as a case study
+- [Backends at Inference Speed](backend-at-inference-speed.md) — statefulness as the driver of asymmetric fallout
 - Bailout: [Agentic Review Meltdown](agentic-review-meltdown.md) — when agentic verification is lagging behind
 
 ## LinkedIn postings

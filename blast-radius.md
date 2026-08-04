@@ -30,7 +30,7 @@ More details on that are in the article [Frontends at Inference Speed: Agent-fri
 Compared to frontend tasks, I see it as significantly more difficult to restrict blast radiuses for backend tasks.
 Especially since many backend errors have an asymmetric blast radius — e.g. data corruption, personal data breaches, or deeply entrenched performance degradations that can only be fixed via major re-architecting — whereas frontend errors tend to have a more symmetric blast radius (e.g. fixing a design-system noncompliance).
 Nevertheless, a few isolated backend modules might still be generated at inference speed if the architecture is tuned for this.
-It is still an open question to me how well a blast radius can be restricted for sub-modules in backend engineering (with realistic efforts).
+More details on that are in the article [Backends at Inference Speed: About the statefulness of blast radiuses](backend-at-inference-speed.md).
 
 ### Utilities or Helper Tools
 
