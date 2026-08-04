@@ -22,3 +22,4 @@ Shorter takes, posted as they came up:
 - [Converting Tokens Into Quality](linkedin-postings/convert-tokens-into-quality.md) — a regression suite in an afternoon, not in weeks
 - [Testing Is Fun Again](linkedin-postings/testing-being-fun-again.md) — QA as an algorithmic problem
 - [Farewell, Bitpanda](linkedin-postings/bitpanda-farewell.md) — what custodial-grade process is actually good for
+- [Statefulness and Blast Radius](linkedin-postings/statefulness-blast-radius.md) — stateless code can be re-run, stateful damage cannot
