@@ -31,6 +31,14 @@ To reduce performance risks, techniques like database read-replicas might be use
 However, even if we have a perfectly stateless functionality that can be carved out, the risk of data breaches still needs to be kept strictly under control.
 Data breaches are one of the most destructive asymmetric blast radiuses that exist, and not only because of the GDPR: unlike a regular error, a leaked record cannot be repaired by any remediation project.
 
+### Idempotency as a Middle Ground
+
+If a backend module cannot be made "stateless", it can be tried to make it at least "idempotent".
+An "idempotent" operation is an operation that can be repeated without stacking up its effects: the terminal state follows the arguments of the latest call, not the number of calls that came before it.
+Crucially, this means the arguments may be changed and fine-tuned between the calls, which is exactly what an agentic loop does.
+As such, the idempotency-property can help to at least partially reduce the fallout if an operation went wrong.
+Other properties work in a similar direction: state that can be rebuilt from a source of truth, or operations that can be reversed, both keep a failure closer to the symmetric end of the spectrum.
+
 ### How to Carve Out Backend Modules
 
 I strongly emphasize: "carving out backend modules" does NOT mean spinning up a new microservice.
@@ -53,5 +61,5 @@ Dependency hygiene can be efficiently enforced with a combination of LLM-instruc
 ### Outlook
 
 I see backend-architectures centered around blast radiuses and statefulness still underused, and the carving out still in its infancy.
-Instead of carving out pre-existing functionality, I would rather suggest trying this technique on a completely new feature that is well-suited to be a stateless backend-module.
+Instead of carving out pre-existing functionality, I would rather suggest trying this technique on a completely new feature that is well-suited to be a stateless backend module.
 That way, a carve-out can be probed with a quick return on investment, without risking regressions in pre-existing code.
