@@ -27,3 +27,4 @@ Shorter takes, posted as they came up:
 - [Testing Is Fun Again](linkedin-postings/testing-being-fun-again.md) — QA as an algorithmic problem
 - [Farewell, Bitpanda](linkedin-postings/bitpanda-farewell.md) — what custodial-grade process is actually good for
 - [Statefulness and Blast Radius](linkedin-postings/statefulness-blast-radius.md) — stateless code can be re-run, stateful damage cannot
+- [Convert Speed into Quality](linkedin-postings/convert-speed-into-quality.md) — you cannot review your way to quality

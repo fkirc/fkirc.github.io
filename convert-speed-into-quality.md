@@ -50,13 +50,13 @@ In desperate situations, a formal classification of blast radiuses might no long
 Then the "individual genius wit" of a "10x engineer" comes into play, who is believed to be able to drive home a task at extreme speed without blowing up bridges in between.
 However, relying on genius wit and "agentic intuition" is not a scalable management-strategy, but rather a last resort to save a project that is on the brink of dying.
 
-## Driving Quality with E2E Tests
+### Driving Quality with E2E Tests
 
 End-to-end tests are where the conversion of speed into quality becomes concrete, as a direct consequence of [verification loops](verification-traps.md).
 In the agentic era, end-to-end tests are no longer merely a way to catch regression-errors, but they drive the speed of agentic verification loops right through the development.
 A regression suite that used to require weeks of implementation can now be prototyped in a single afternoon, and such speed in test-generation accelerates quality and delivery-speed at the same time.
 
-## Outlook
+### Outlook
 
 Let us use agentic forces to make systems work not only "somehow", but top-notch, with almost perfect user experience and performance.
 Once a blast radius is mapped out, and specs and verification loops are set up, a task can be executed at unprecedented speed.
