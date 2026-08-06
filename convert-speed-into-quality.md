@@ -1,4 +1,7 @@
-# Convert Speed into Quality: The AI Acceleration Pedal
+---
+layout: page
+title: "Convert Speed into Quality: The AI Acceleration Pedal"
+---
 
 In the [Triple Loop Condition](triple-loop-condition.md) series of articles, I proposed ways to run engineering tasks at "AI inference speed" — as fast as AI allows.
 But what if you are not interested in working faster, but rather in increasing quality?
