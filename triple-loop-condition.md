@@ -52,3 +52,4 @@ The following is a series of articles and case studies to validate the "Triple L
 - Special case: [Frontends at Inference Speed: Agent-friendly CSS Styling](frontend-at-inference-speed.md)
 - Special case: [Backends at Inference Speed: About the statefulness of blast radiuses](backend-at-inference-speed.md)
 - Bailout: [Agentic Review Meltdown: Fallback to Fiduciary Trust](agentic-review-meltdown.md) — when agentic verification is lagging behind
+- Outlook: [Convert Speed into Quality: The AI Acceleration Pedal](convert-speed-into-quality.md) — spending the gained speed on quality instead of on more output

@@ -35,6 +35,8 @@ In case those scripts are deemed as "stable", then the scripts may be cleaned up
 
 Special case for frontends: it is critically important that the agent has direct control of a web browser, e.g. with Playwright-CLI, so it can see the rendered result itself — for example via screenshots — instead of relying on a human to check the UI.
 
+End-to-end loops are also a case where verification speed and product quality are not a trade-off, but rather a synergy, as described in [Convert Speed into Quality: The AI Acceleration Pedal](convert-speed-into-quality.md).
+
 ### Highly Expensive End to End Loops
 
 For some projects, end to end loops consume an unacceptable amount of time or token-budget.

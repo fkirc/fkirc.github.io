@@ -12,6 +12,7 @@ Articles on AI-engineering at inference speed — using AI not just to assist, b
 - [Frontends at Inference Speed](frontend-at-inference-speed.md) — agent-friendly CSS styling as a case study
 - [Backends at Inference Speed](backend-at-inference-speed.md) — statefulness as the driver of asymmetric fallout
 - Bailout: [Agentic Review Meltdown](agentic-review-meltdown.md) — when agentic verification is lagging behind
+- Outlook: [Convert Speed into Quality](convert-speed-into-quality.md) — the AI acceleration pedal, and why slowness does not produce quality
 
 ## LinkedIn postings
 

@@ -81,3 +81,5 @@ You have now unlocked the real power of AI at inference speed.
 However, blast radius depends on the surrounding environment.
 And wherever the three conditions are only partially covered, the remaining gaps may still need to be bridged by [fiduciary trust](agentic-review-meltdown.md) in the people running those agents.
 Such gaps are best treated as a backlog: the more of them we close with real specs, verifications, and blast-radius limits, the less we depend on trust that does not scale.
+
+And once the blast radius of a task is mapped out, it can be used to dose the speed: how to spend that speed on quality rather than on more output is covered in [Convert Speed into Quality: The AI Acceleration Pedal](convert-speed-into-quality.md).
