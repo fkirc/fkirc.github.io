@@ -9,6 +9,7 @@ Articles on AI-engineering at inference speed — using AI not just to assist, b
 - [Frontends at Inference Speed](frontend-at-inference-speed.md) — agent-friendly CSS styling as a case study
 - [Backends at Inference Speed](backend-at-inference-speed.md) — statefulness as the driver of asymmetric fallout
 - Bailout: [Agentic Review Meltdown](agentic-review-meltdown.md) — when agentic verification is lagging behind
+- Outlook: [Convert Speed into Quality](convert-speed-into-quality.md) — the AI acceleration pedal, and why slowness does not produce quality
 
 ## LinkedIn postings
 
@@ -23,3 +24,4 @@ Shorter takes, posted as they came up:
 - [Testing Is Fun Again](linkedin-postings/testing-being-fun-again.md) — QA as an algorithmic problem
 - [Farewell, Bitpanda](linkedin-postings/bitpanda-farewell.md) — what custodial-grade process is actually good for
 - [Statefulness and Blast Radius](linkedin-postings/statefulness-blast-radius.md) — stateless code can be re-run, stateful damage cannot
+- [Convert Speed into Quality](linkedin-postings/convert-speed-into-quality.md) — you cannot review your way to quality
