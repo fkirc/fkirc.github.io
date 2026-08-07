@@ -15,7 +15,7 @@ And in many cases, that resistance is well-justified.
 For example, cowboy-style shipping at inference speed might lead to excessive maintenance problems or technical debt — or, even worse, a meltdown in IT-security or regulatory compliance.
 But other than well-justified resistance, I also heard many vague arguments of "AI being too weak" for certain tasks.
 
-### How to Smell Bullshit Arguments
+### How to Smell Weak Arguments
 
 So I asked myself:
 How can we detect in which cases the resistance against AI at inference speed is technically valid, and in which case the resistance is based on vague gut feelings, historic anecdotes or sometimes even straight-up misinformed lies?

@@ -3,7 +3,8 @@ layout: home
 title: Home
 ---
 
-Articles on AI-engineering at inference speed — using AI not just to assist, but to complete tasks in self-correcting verification loops.
+Articles on AI-engineering at inference speed in a guardrailed way — using AI not just to assist, but to complete tasks in self-correcting verification loops.
+Not for speed only, but to maximize quality and reduce long-term risks.
 
 - [The Triple Loop Condition](triple-loop-condition.md) — when it's safe and responsible to work at inference speed
 - [Specification Traps](specification-traps.md) — which tasks can even be specified well enough to attempt
