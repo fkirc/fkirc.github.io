@@ -45,7 +45,7 @@ To drive the AI acceleration pedal in a sensible way, we should understand the b
 In [Blast Radius](blast-radius.md), I introduced a spectrum of **symmetric** and **asymmetric** blast radiuses.
 At the symmetric end, the pedal should be pushed harder, in favor of a fast resolution of newly emerging quality-issues or UX-problems.
 At the asymmetric end, the acceleration pedal should be released, in favor of minimizing long term damage.
-For products whose defects mostly surface after users touch them, only dynamic acceleration achieves top-notch quality — "being careful and prudent" does not.
+For products whose defects mostly surface after users touch them, only dynamic acceleration and braking achieve top-notch quality.
 
 ### Driving in Racing Mode
 
