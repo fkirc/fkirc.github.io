@@ -27,3 +27,4 @@ Shorter takes, posted as they came up:
 - [Statefulness and Blast Radius](linkedin-postings/statefulness-blast-radius.md) — stateless code can be re-run, stateful damage cannot
 - [Convert Speed into Quality](linkedin-postings/convert-speed-into-quality.md) — you cannot review your way to quality
 - [Stand Against Tyranny](linkedin-postings/stand-against-tyranny.md) — the rule of law, not appeasement, holds the line against tyranny
+- [Self-Explaining Tools](linkedin-postings/self-explaining-tools.md) — design CLI-tools and MCP-servers as a decision-tree agents walk
