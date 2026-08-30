@@ -20,7 +20,6 @@ Shorter takes, posted as they came up:
 - [How to Authenticate Agents](linkedin-postings/how-to-authenticate-agents.md) — is OAuth the new king?
 - [MCPs Are Not REST Mirrors](linkedin-postings/mcp-rest-mirrors.md) — build agent-first, not endpoint-first
 - [The Local MCP Slop-Creature](linkedin-postings/slop-creature-local-mcp.md) — the worst of both worlds in one package
-- [Jira in the Agent Era](linkedin-postings/jira-with-agents.md) — customization humans tolerated, agents expose
 - [Converting Tokens Into Quality](linkedin-postings/convert-tokens-into-quality.md) — a regression suite in an afternoon, not in weeks
 - [Testing Is Fun Again](linkedin-postings/testing-being-fun-again.md) — QA as an algorithmic problem
 - [Farewell, Bitpanda](linkedin-postings/bitpanda-farewell.md) — what custodial-grade process is actually good for
@@ -28,3 +27,7 @@ Shorter takes, posted as they came up:
 - [Convert Speed into Quality](linkedin-postings/convert-speed-into-quality.md) — you cannot review your way to quality
 - [Stand Against Tyranny](linkedin-postings/stand-against-tyranny.md) — the rule of law, not appeasement, holds the line against tyranny
 - [Self-Explaining Tools](linkedin-postings/self-explaining-tools.md) — design CLI-tools and MCP-servers as a decision-tree agents walk
+- [Engineering Depth in Startups](linkedin-postings/engineering-depth-in-startups.md) — which companies still need deep computer-science knowledge in the agentic era
+- [Career Triple Forking Point](linkedin-postings/career-triple-forking-point.md) — three skill-areas I aim to port to a new company
+- [Meeting Culture with Agents](linkedin-postings/meeting-culture-with-agents.md) — why engineers may need to sit in on stakeholder meetings now
+- [Java Virtual Threads vs. Kotlin](linkedin-postings/java-virtual-threads-vs-kotlin.md) — shifting complexity into the runtime vs. into the compiler

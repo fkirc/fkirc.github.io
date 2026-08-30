@@ -1,0 +1,6 @@
+Lightweight Virtual Threads. A modern paradigm for concurrency in the JVM-universe. The JVM/Hotspot-developers built an impressive system with Project Loom. An advanced feat of system engineering. Freezing and reconstructing call stacks at high speed. Potentially allowing new patterns for scaling Java-services.
+But then I asked: is such complexity in the runtime really justified?
+Surely there are valid use cases, but the creators of Kotlin said no. Kotlin has "suspension points" as a language feature, and the Kotlin-compiler can generate tiny pieces of helper code to achieve highly flexible concurrency, even without any additional JVM-runtime-complexity.
+Hence, Kotlin demonstrates a smart application of the paradigm "shifting complexity into libraries" — those libraries can be updated easily, in contrast to more difficult JVM updates.
+And not only shifting complexity, but also reducing complexity in total.
+Some people criticize suspension points for their viral property of "function coloring", but in my opinion, this type of coloring can also have positive side effects: instead of relying only on naming conventions to see whether a function call might block (in Java), the Kotlin-suspend-modifier increases readability by making "suspending" code visible.
