@@ -38,7 +38,7 @@ I believe that human reviews still remain critically important.
 However, the automated verification loops must be strong enough so that the reviews do not become a long back and forth of corrections.
 Moreover, the task must be pre-structured so that the blast radius can be easily reviewed without extremely tedious risk-reviews.
 
-Or put in other words for mathematical freaks:
+More formally:
 
 If a task satisfies `C1 ^ C2 ^ C3`, then the expected time to review the task for humans collapses down to a brief and efficient verification gate, under the assumption that the spec (C1) was already reviewed before. 
 
