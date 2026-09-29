@@ -8,5 +8,6 @@ Instead of telling a teammate "your setup does not work, you need to install X, 
 If the remote environment fails to produce a proper Mergerequest for a well-written prompt, then it is the job of the environment owners to fix it, not the job of everyone else to study the tech setup.
 Currently, my favorite tool for such remote environments is "OpenHands".
 Think of OpenHands as a simple app builder like lovable.dev, but fully open source, connected to your Git-repo, and with the ability to deep-dive into code via a remote VSCode IDE. Hence, OpenHands provides both simplicity and full control over all code.
+Special advantage for Claude Code users: OpenHands can be configured to use the original Claude Code binary from Anthropic, which makes it compatible with the price-efficient Anthropic subscriptions.
 Finally, remote environments work best when combined with self-correcting feedback loops and verification strategies. I wrote a separate series of articles about this: the "Triple Loop Condition".
 Full article series: https://fkirc.github.io/triple-loop-condition.html
