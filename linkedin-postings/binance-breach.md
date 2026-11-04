@@ -8,4 +8,4 @@ So I believe we should drastically reduce the software installed on employee not
 Running agents in isolated cloud containers already reduces exposure, which inspired my recent workshop on OpenHands Cloud Agents.
 Another part of the solution is guardrailed agentic code generation.
 Dependency lockfiles and strict rules on allowed dependencies can help agents reduce supply chain exposure. A large slew of external packages might become just a few thousand lines of agent-generated code. That code may not be perfectly clean, but it may be more secure than the packages it replaces.
-I am optimistic that the Binance meltdown will eventually lead to more secure code generation setups.
+I am optimistic that the Binance hack will eventually lead to more secure engineering setups.
