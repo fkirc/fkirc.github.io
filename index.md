@@ -35,3 +35,4 @@ Shorter takes, posted as they came up:
 - [Meeting Culture with Agents](linkedin-postings/meeting-culture-with-agents.md) — why engineers may need to sit in on stakeholder meetings now
 - [Java Virtual Threads vs. Kotlin](linkedin-postings/java-virtual-threads-vs-kotlin.md) — shifting complexity into the runtime vs. into the compiler
 - [OpenHands and Remote Development](linkedin-postings/openhands-remote-dev.md) — why agents may soon stop running on local machines
+- [The Binance Breach](linkedin-postings/binance-breach.md) — how agentic code might improve supply chain security
