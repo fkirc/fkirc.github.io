@@ -36,3 +36,4 @@ Shorter takes, posted as they came up:
 - [Java Virtual Threads vs. Kotlin](linkedin-postings/java-virtual-threads-vs-kotlin.md) — shifting complexity into the runtime vs. into the compiler
 - [OpenHands and Remote Development](linkedin-postings/openhands-remote-dev.md) — why agents may soon stop running on local machines
 - [The Binance Breach](linkedin-postings/binance-breach.md) — how agentic code might improve supply chain security
+- [The Quantum Risk Premium](linkedin-postings/quantum-threat-risk-premium.md) — why ethical long-term action may already pay off today
