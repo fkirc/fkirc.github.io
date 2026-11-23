@@ -37,3 +37,4 @@ Shorter takes, posted as they came up:
 - [OpenHands and Remote Development](linkedin-postings/openhands-remote-dev.md) — why agents may soon stop running on local machines
 - [The Binance Breach](linkedin-postings/binance-breach.md) — how agentic code might improve supply chain security
 - [The Quantum Risk Premium](linkedin-postings/quantum-threat-risk-premium.md) — why ethical long-term action may already pay off today
+- [Risk-Based AI Coding](linkedin-postings/risk-based-ai-coding.md) — what works in financial regulations also works for AI-generated code
