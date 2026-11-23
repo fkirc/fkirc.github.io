@@ -4,7 +4,7 @@ What does that mean? Control-efforts must not be spread equally across all activ
 
 A similar approach works excellently for AI-generated code.
 Integrating a new third-party dependency? Elevated risk of supply chain attacks: scrutinize it to reduce cybersecurity exposure.
-Generating a slew of frontend-pages that replicate a pre-existing UI design? Sign off with minimal oversight, as long as generated verification loops work as expected.
+Generating a slew of frontend-pages that replicate a pre-existing UI design? Sign off with light oversight, as long as agentic verification loops work as expected.
 Spotted critical business logic? Double-check it and isolate it into separate files.
 Spotted an "unfamiliar" pattern that does its job perfectly? Let it pass: an LLM knows thousands of patterns you are unfamiliar with, and future co-workers will use agents to explain them anyway.
 
