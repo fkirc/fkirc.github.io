@@ -15,7 +15,7 @@ Yet, "developers" are likely to become risk managers.
 What risk-based regulations like DORA enforce at a macro-level may now become common at the micro-level.
 
 The lesson is clear for me: Whoever sticks to old "minimal subset art coding" principles may soon get overrun by competitors that adopt a risk-based approach.
-My article series on the Triple Loop Condition has a detailed risk breakdown across coding categories.
+My article series on the Triple Loop Condition has a detailed risk breakdown across coding categories, based on a blast radius categorization: https://fkirc.github.io/blast-radius.html
 
 A final anecdote:
 Just recently I ran into a sloppy financial coding error:
